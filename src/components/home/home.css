@@ -1,0 +1,258 @@
+* {
+    margin: 0px;
+    background-color: #12191f;
+}
+
+.homeBody {
+    width: 100vw;
+}
+
+.homeBody hr {
+    border: white solid 1px;
+    margin-top: 0;
+}
+
+/* ---------- Video Player ---------- */
+.video-responsive {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* ---------- Header Section ---------- */
+.headerSection {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../images/headerImage1.jpg");
+    background-size: cover;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.headerSection h1{
+    background-color: transparent;
+    font-size: 2.7em;
+    position: relative;
+    bottom: 42%;
+}
+
+.paypalButton{
+    background-color: #12191f;
+    height: 40px;
+    width: 160px;
+    align-self: center;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    border: 2px #30ff00 solid;
+    color: #30ff00;
+}
+
+.companyNameHeading{
+    position: relative;
+    bottom: 465px; 
+    font-size: 10em;
+    text-shadow: 3px 3px #167600;
+    color: #30ff00;
+
+}
+
+.signupLink{
+    background-color: transparent;
+    color: white;
+    position: relative;
+    bottom: 40%; 
+}
+
+
+
+
+
+/* ---------- About Section ---------- */
+.aboutSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    overflow: hidden;
+}
+
+.aboutSection h3{
+    margin: 16px;
+}
+
+.aboutSection div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color:white;
+    margin:16px;
+}
+
+
+/* ---------- MT4 Section ---------- */
+.mt4Section {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+}
+
+.mt4Section h3{
+    margin-top: 16px;
+}
+
+.mt4Section div {
+    width: 90%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    margin:16px;
+}
+
+
+/* ---------- Disclaimer Section ---------- */
+.disclaimerSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+}
+
+.disclaimerSection h2{
+    color: red;
+    margin-top: 16px;
+}
+.disclaimerSection p{
+    font-size: .80em;
+}
+
+.disclaimerSection div {
+    width: 90%;
+    align-self: center;
+    color:white;
+    margin:16px;
+}
+
+
+/* ---------- Footer Section ---------- */
+.footerSection {
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------- Desktop View -------------------- */
+@media only screen and (min-width: 768px) {
+
+    .homeBody {
+        position: relative;
+        padding-bottom: 8rem;
+    }
+
+
+    /* ---------- Video Player ---------- */
+
+    .video-responsive iframe {
+        height: 30%;
+        width: 80%;
+        top: 35%;
+    }
+
+    /* ---------- Header Section ---------- */
+    .headerSection h1{
+        font-size: 10em;
+        text-shadow: 8px 3px #167600;
+        color: #30ff00;
+        bottom:47%;
+    }
+
+    .signupLink{
+        bottom: 43%;
+    }
+
+    .paypalButton{
+    height: 60px;
+    width: 311px;
+    font-size: 2em;
+    }
+
+
+    /* ---------- About Section ---------- */
+    .aboutSection {
+        flex-direction: row;
+        height: 50vh;
+    }
+    
+    .aboutSection div {
+        width: 35%;
+        flex-direction: column;
+        padding-right: 50px;
+    }
+
+    .aboutSection p {
+        font-size: 20px;
+    }
+
+
+
+
+    /* ---------- MT4 Section ---------- */
+    .mt4Section {
+        flex-direction: row;
+        height: 50vh;
+    }
+
+    .mt4Section div {
+        width: 35%;
+        flex-direction: column;
+        padding-right: 50px;
+    }
+
+    .mt4Section p {
+        font-size: 20px;
+    }
+
+
+
+
+    /* ---------- Disclaimer Section ---------- */
+    .disclaimerSection {
+        width: 60%;
+        margin: auto;
+    }
+
+
+
+}

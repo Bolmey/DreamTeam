@@ -1,0 +1,35 @@
+/* ---------- Footer Section ---------- */
+.footerSection {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 1rem;
+    border-top: white solid 1px;
+    width: 100vw;
+    padding-bottom: 1rem;
+    background-color: #212529;
+}
+
+.footerSection > *{
+    background-color: #212529;
+}
+
+.instagramLink {
+    width: 30px;
+    height: 30px;
+    background-image: url("../../images/instagramLogo.png");
+    background-size: contain;
+    align-self: center;
+}
+
+
+
+/* -------------------- Desktop View -------------------- */
+@media only screen and (min-width: 768px) {
+
+    .footerSection { 
+        position: absolute;
+    }
+
+}
