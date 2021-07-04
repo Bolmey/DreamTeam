@@ -26,7 +26,7 @@ export default function NavbarSection() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav>
-                            <Nav.Link href="#deets">Twitter</Nav.Link>
+                            {/* <Nav.Link href="#deets">Twitter</Nav.Link> */}
                             <Nav.Link eventKey={2} href="https://www.instagram.com/dream_team_trading/">
                                 Instagram
                             </Nav.Link>
